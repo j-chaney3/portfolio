@@ -1,21 +1,40 @@
 body {
     font-family: "Open Sans", sans-serif;
+    padding-bottom: 50px;
 }
 
 h1,h2,h3,h4,h5 {
     font-family: "Roboto";
-    color: white;
+    
 }
 
 .jumbotron {
-    background-image: linear-gradient(to bottom, rgb(71, 61, 61), rgb(92, 76, 76), rgb(88, 76, 76));
+    background-image: linear-gradient(to bottom, rgb(87, 56, 56), rgb(114, 76, 76), rgb(134, 100, 100));
     margin-bottom: 0;
     color: white;
 }
 
-.navbar {
+#top-navbar {
     background-color: grey;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+#bottom-navbar {
+    height: 3rem;
+    background-color: rgb(87, 56, 56);
+    color: white;
+    margin: 0;
+    padding-bottom: 0;
+    margin-top: 20px;
+}
+
+.row-content {
+    min-height: 100px;
+}
+
+.site-footer {
+    background-color: rgb(71,61,61);
+    
 }
 
