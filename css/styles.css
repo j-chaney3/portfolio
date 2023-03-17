@@ -15,9 +15,9 @@ h1,h2,h3,h4,h5 {
 }
 
 #top-navbar {
-    background-color: grey;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    background-color: rgb(209, 210, 211);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 #bottom-navbar {
