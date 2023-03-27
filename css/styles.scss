@@ -1,0 +1,50 @@
+$color-header-dark: rgb(87,56,56);
+$color-header-mid: rgb(114,76,76);
+$color-header-light: rgb(134,100,100);
+$color-navbar: rgb(209,210,211);
+$body-font: "open Sans", "sans-serif";
+$header-font: "Roboto";
+
+
+body {
+    font-family: $body-font;
+    padding-bottom: 50px;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: $header-font;
+    
+}
+
+.jumbotron {
+    background-image: linear-gradient(to bottom, $color-header-dark, $color-header-mid, $color-header-light);
+    margin-bottom: 0;
+    color: white;
+}
+
+#top-navbar {
+    background-color: $color-navbar;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    
+}
+
+#bottom-navbar {
+    height: 3rem;
+    background-color: $color-header-dark;
+    color: white;
+    margin: 0;
+    padding-bottom: 0;
+    margin-top: 20px;
+}
+
+.row-content {
+    min-height: 100px;
+}
+
+.site-footer {
+    background-color: $color-header-dark;
+    
+}
+
