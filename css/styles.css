@@ -31,4 +31,5 @@ h1, h2, h3, h4, h5 {
 
 .card-body .card-bullets {
   margin-bottom: 0px;
-  padding-left: 20px; }
+  padding-left: 20px;
+  color: #724c4c; }
