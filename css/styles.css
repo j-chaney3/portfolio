@@ -28,3 +28,7 @@ h1, h2, h3, h4, h5 {
 
 .site-footer {
   background-color: #573838; }
+
+.card-body .card-bullets {
+  margin-bottom: 0px;
+  padding-left: 20px; }
